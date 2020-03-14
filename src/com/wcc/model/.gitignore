@@ -3,5 +3,6 @@
 .project
 .vscode
 *.log
-bin
+.bin
+*.iml
 target
