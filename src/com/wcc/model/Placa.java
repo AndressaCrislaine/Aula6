@@ -5,10 +5,14 @@ import java.util.List;
 
 public class Placa {
 
-    List<Componente> componentes = new ArrayList<Componente>();
+    private List<Componente> componentes = new ArrayList<Componente>();
 
     public void addComponente(Componente componente){
         componentes.add(componente);
+    }
+
+    public List<Componente> getComponentes() {
+        return componentes;
     }
 
     @Override
